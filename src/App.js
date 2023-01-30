@@ -106,6 +106,7 @@ class App extends React.Component {
       },
       this.state.input      
     ).*/
+    //fetch
     fetch("http://localhost:3000/imageurl", {
           method: 'POST',
           headers: {
